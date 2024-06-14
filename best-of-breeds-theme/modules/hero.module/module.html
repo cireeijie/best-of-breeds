@@ -1,0 +1,13 @@
+<!-- module html  -->
+<section class="bg-[url('{{ get_asset_url('best-of-breeds-theme/images/hero-bg.png') }}')] bg-center bg-cover bg-no-repeat relative">
+    <img src="{{ get_asset_url('best-of-breeds-theme/images/overlay.png') }}" class="absolute left-0 top-0 bottom-0 pointer-events-none"/>
+    <div class="max-w-[1200px] mx-auto my-0 h-[750px] flex items-center">
+        <div class="max-w-[550px] z-10">
+            <div class="mb-[54px]">
+                <h1 class="text-[74px] leading-[116.216%] font-semibold mb-[14px]">{{ module.hero_title }}</h1>
+                <p class="text-[24px] leading-[141.667%] font-medium">{{ module.subtitle }}</p>
+            </div>
+            <a href="{{ module.button_url || '#' }}" class="bg-[#0080E5] text-white text-[18px] font-bold px-[34px] py-[22px] rounded-[50px] leading-none">{{ module.button_text }}</a>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,38 @@
+[
+  {
+    "default": "Your business with automation",
+    "label": "Hero title",
+    "locked": false,
+    "name": "hero_title",
+    "required": false,
+    "type": "richtext",
+    "validation_regex": ""
+  },
+  {
+    "default": "We specialize in automating your business processes to enhance productivity and creativity.",
+    "label": "Subtitle",
+    "locked": false,
+    "name": "subtitle",
+    "required": false,
+    "type": "richtext",
+    "validation_regex": ""
+  },
+  {
+    "default": "Book a demo",
+    "label": "Button text",
+    "locked": false,
+    "name": "button_text",
+    "required": false,
+    "type": "richtext",
+    "validation_regex": ""
+  },
+  {
+    "default": "",
+    "label": "Button url",
+    "locked": false,
+    "name": "button_url",
+    "required": false,
+    "type": "text",
+    "validation_regex": "^(https?|ftp):\\/\\/[^\\s/$.?#][^\\s]*$|^\\/$|^\\/.*$|^#$|^#.*$|^$"
+  }
+]

@@ -1,0 +1,19 @@
+<!-- module html  -->
+<section class="bg-[#0080E5] relative">
+    <img class="absolute bottom-0 left-0 opacity-[0.1]" src="{{ get_asset_url('best-of-breeds-theme/images/cta-bottom-left-image.svg') }}" />
+    <div class="max-w-[1200px] mx-auto my-0 py-[120px]">
+        <div class="max-w-[505px] mx-auto flex flex-col items-center justify-center">
+            <div class="text-center mb-[64px]">
+                <h2 class="text-[58px] text-white font-semibold leading-[124.138%]">{{ module.cta_title }}</h2>
+                <p class="text-[24px] text-white leading-[150%]">{{ module.subtitle }}</p>
+            </div>
+            <a href="{{ module.cta_url || '#' }}" class="bg-[#0F0823] px-[32px] py-[18px] rounded-[50px] flex gap-[10px] items-center">
+                <span class="text-white">{{ module.button_text }}</span>
+                <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-2.18557e-07 5L9.2 5L5.6 1.4L7 -2.62268e-07L13 6L7 12L5.6 10.6L9.2 7L-3.0598e-07 7L-2.18557e-07 5Z" fill="white"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <img class="absolute top-0 right-0 opacity-[0.1]" src="{{ get_asset_url('best-of-breeds-theme/images/cta-top-right-image.svg') }}" />
+</section>

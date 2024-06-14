@@ -1,0 +1,8 @@
+[
+  {
+    "label": "Theme color",
+    "name": "color",
+    "type": "color",
+    "required": true
+  }
+]
